@@ -9,17 +9,21 @@
 </head>
 <body>
     <h1>My Library</h1>
+    <button id="show-form">Add Book</button>
     <div id="library">Library</div>
     <div id="form-container">
-        <form id="book-form">
-            <input type="text" id="title" placeholder="Title" required>
-            <input type="text" id="author" placeholder="Author" required>
-            <input type="number" id="pages" placeholder="Number of Pages" required>
-            <label>
-                <input type="checkbox" id="isRead"> Read
-            </label>
-            <button type="submit">Add Book</button>
-        </form>
+        <dialog id="form-dialog">
+            <form id="book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="number" id="pages" placeholder="Number of Pages" required>
+                <label>
+                    <input type="checkbox" id="isRead"> Read
+                </label>
+                <button type="submit">Add Book</button>
+            </form>
+        </dialog>
+    
     
 </body>
 </html>
