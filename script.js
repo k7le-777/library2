@@ -21,7 +21,8 @@ Book.prototype.toggleRead = function() {
     this.isRead = !this.isRead;
 }
 Book.prototype.info = function() {
-    return `${this.title} by ${this.author}, ${this.pages} pages, ${this.isRead ? 'already read' : 'not read yet'}`;
+    const pageLabel = this.pages == 1 ? "page" : "pages";
+    return `${this.title} by ${this.author}, ${this.pages} ${pageLabel}, ${this.isRead ? 'already read' : 'not read yet'}`;
 }
 //event listeners
 showForm.addEventListener('click', () => {
