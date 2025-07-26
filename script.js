@@ -2,6 +2,9 @@
 const myLibrary = [];
 
 function Book(title, author, pages, isRead) {
+    if (!(this instanceof Book)) {
+        return new Book(title, author, pages, isRead);
+    }
     this.id = crypto.randomUUID();
     this.title = title;
     this.author = author;
