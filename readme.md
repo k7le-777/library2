@@ -74,6 +74,10 @@ When the 'Add Book' button is clicked:
     Else:
         Hide the form (set display to 'none')
 
+**new branch to refactor functions into class**
+learned OOP - Object Orientated Programming
+-create libraryUI to group ui logic and organize code for scalability.
+-added trim logic to string inputs and prevent non numeric for pages
 
 
 
