@@ -1,6 +1,15 @@
-# 📚 Library App
+# 📚 Library v2 App
 
-A book library application for tracking your reading list, built with JavaScript objects and DOM manipulation.
+## Note: This project has an improved version in library2 where I refactored using:
+- Classes instead of constructor functions
+- Better code organization
+- Improved styling
+
+## Reflections
+
+- "This project taught me the connection between data (JavaScript objects) and display (HTML elements). When data changes, the display should update—but keeping them in sync requires careful planning."
+
+# A book library application for tracking your reading list, built with JavaScript objects and DOM manipulation.
 
 [📖 **Live Demo**](https://k7le-777.github.io/library/) | [📝 **Code**](https://github.com/k7le-777/library)
 
